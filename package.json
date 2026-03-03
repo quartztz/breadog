@@ -1,0 +1,24 @@
+{
+  "name": "breadog-theme",
+  "displayName": "breadog",
+	"publisher": "quartztz",
+  "description": "port of the breadog theme to vscode",
+  "repository": {
+    "url": ""
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.106.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "breadog",
+        "uiTheme": "vs",
+        "path": "./themes/breadog-color-theme.json"
+      }
+    ]
+}
